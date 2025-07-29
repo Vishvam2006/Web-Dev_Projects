@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    background-color: black;
+    font-weight: bold;
+    color:white;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    height:3rem;
+}
+.images{
+    margin-top:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    height:150px;
+    width:150px;
+    margin-right:2rem;
+    border-radius: 30%;
+}
+
+.button:hover{
+    border:0.3rem solid black;
+}
+
+.score{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.scorecard{
+    gap:5rem;
+    margin-top:3rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#msg_container{
+    margin-top: 2rem;
+    background-color: rgb(7, 10, 72);
+    color:white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+#comp_chose_para{
+    margin-top: 3rem;
+    background-color: yellow;
+    color:rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.submit{
+    margin-top: 3rem;
+    
+}
+
+#submit_button{
+    background-color: greenyellow;
+    width: 5rem;
+    height:3rem;
+    font-size: 1rem;
+    color:red;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+#submit_button:hover{
+    border:3px solid black;
+}
+
+#submit_msg{
+    margin-top:1rem;
+    background-color: aqua;
+    font-size: 2rem;
+}
+
+#reload_button{
+    background-color: greenyellow;
+    width: 5rem;
+    height:3rem;
+    font-size: 1rem;
+    color:red;
+    font-weight: bold;
+    border-radius: 20%;
+}
+#reload_button:hover{
+    border:3px solid black;
+}

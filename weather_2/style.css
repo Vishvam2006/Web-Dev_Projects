@@ -1,0 +1,116 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Images/clear_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+}
+.card{  
+    width:90%;
+    max-width:400px;
+    background-image: url(Images/clear_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+#input_city{
+    background-color: rgb(241, 241, 241);
+    color:black;
+    height: 2.5rem;
+    width:90%;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+    padding: 1rem;
+}
+#input_city:hover{
+    cursor: pointer;
+}
+
+#search_btn{
+    width:3rem;
+    height:2.5rem;
+    border-radius: 100%;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_img{
+    width:1rem;
+    height:1rem;
+    border-radius: 100%;
+    border:none;
+}
+#search_btn:hover{
+    cursor: pointer;
+}
+
+.temp_details{
+    margin-top:1rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color:black;
+}
+.city_name_display{
+    margin-top:1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color:black;
+}
+#img_container{
+    height:12rem;
+}
+.additional_details{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    gap:4rem;
+}
+.humidity, .wind{
+    display: flex;
+    gap:1rem;
+}
+.add_img_humidity{
+    width:3rem;
+    height:3rem;
+}
+.add_img_wind{
+    width:4rem;
+    height:3rem;
+}
+
+.img_name{
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    color:black;
+}
+
+#wind_speed,#hum{
+    font-size: 1.3rem;
+    color:black;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle,blue,purple);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    color:black;
+    width:30vw;
+    height:70vh;
+    border-radius: 20px;
+}
+.heading{
+    margin-top:2rem;
+    font-size: 2rem;
+    color: rgb(12, 45, 104);
+    font-weight:bold;
+}
+
+#add_task{
+    margin-top:2rem;
+    width:20vw;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(235, 237, 238);
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray ;
+}
+#add_task:hover{
+    border:2px solid grey;
+    box-shadow: 0 2px 2px black;
+}
+
+#submit_btn{
+    height: 35px;
+    width:5vw;
+    border-radius: 50px;
+    background-color:rgb(255, 100, 60);
+    color:white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#submit_btn:hover{
+    cursor: pointer;
+    border:2px solid red;
+    box-shadow: 0 2px 2px black;
+}
+
+.tasks{
+    margin-top:2rem;
+    margin-left:2.5rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+#reset{
+    height: 35px;
+    width:4.2vw;
+    border-radius: 50px;
+    background-color:rgb(255, 60, 60);
+    color:white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#reset:hover{
+    cursor: pointer;
+    border:2px solid red;
+    box-shadow: 0 2px 2px black;
+}
